@@ -1,4 +1,4 @@
-package com.atilsamancioglu.retrofitkotlin
+package com.leman.retrofitkotlin
 
 import org.junit.Test
 

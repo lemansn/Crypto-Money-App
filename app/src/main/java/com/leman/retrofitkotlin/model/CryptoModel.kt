@@ -1,6 +1,4 @@
-package com.atilsamancioglu.retrofitkotlin.model
-
-import com.google.gson.annotations.SerializedName
+package com.leman.retrofitkotlin.model
 
 data class CryptoModel(
     //@SerializedName("currency")

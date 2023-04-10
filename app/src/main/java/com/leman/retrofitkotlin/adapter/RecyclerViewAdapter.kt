@@ -1,13 +1,11 @@
-package com.atilsamancioglu.retrofitkotlin.adapter
+package com.leman.retrofitkotlin.adapter
 
 import android.graphics.Color
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.atilsamancioglu.retrofitkotlin.R
-import com.atilsamancioglu.retrofitkotlin.databinding.RowLayoutBinding
-import com.atilsamancioglu.retrofitkotlin.model.CryptoModel
+import com.leman.retrofitkotlin.databinding.RowLayoutBinding
+import com.leman.retrofitkotlin.model.CryptoModel
 
 class RecyclerViewAdapter(private val cryptoList : ArrayList<CryptoModel>, private val listener : Listener) : RecyclerView.Adapter<RecyclerViewAdapter.RowHolder>() {
 

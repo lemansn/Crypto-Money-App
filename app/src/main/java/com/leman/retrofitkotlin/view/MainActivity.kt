@@ -1,21 +1,17 @@
-package com.atilsamancioglu.retrofitkotlin.view
+package com.leman.retrofitkotlin.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.atilsamancioglu.retrofitkotlin.R
-import com.atilsamancioglu.retrofitkotlin.adapter.RecyclerViewAdapter
-import com.atilsamancioglu.retrofitkotlin.databinding.ActivityMainBinding
-import com.atilsamancioglu.retrofitkotlin.model.CryptoModel
-import com.atilsamancioglu.retrofitkotlin.service.CryptoAPI
+import com.leman.retrofitkotlin.adapter.RecyclerViewAdapter
+import com.leman.retrofitkotlin.databinding.ActivityMainBinding
+import com.leman.retrofitkotlin.model.CryptoModel
+import com.leman.retrofitkotlin.service.CryptoAPI
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
